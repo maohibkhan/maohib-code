@@ -1,0 +1,41 @@
+.header {
+	padding: 7px;
+	margin: 7px;
+	border: 10px solid teal;
+	color: lightcoral;
+	background-color: lightcyan;
+	text-align: center;
+	border-radius: 100%;
+	box-shadow: 10px 7px 9px;
+}
+body {
+	background-color: gray;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: flex;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+li a:hover {
+	background-color: #111;
+	color: white;
+	text-decoration: none;
+}
+ul li a:hover {
+	background-color: tomato;
+	color: lightblue;
+	text-decoration: none;
+}
